@@ -1,3 +1,4 @@
+212223060241
 # EX.NO: 5 IMPLEMENTATION OF STOP AND WAIT PROTOCOL
 
 # AIM
@@ -19,7 +20,7 @@ Step 12: Define the plot window and finish procedure.
 Step 13: In the definition of the finish procedure declare the global variables. Step 14: Close the trace file and namfile and execute the network animation file. Step 15: At the particular time call the finish procedure.
 Step 16: Stop the program.
  
-# PROGRAM
+ # PROGRAM
 set ns [new Simulator]
 set namfile [open out.nam w]
 $ns namtrace-all $namfile proc finish {}
@@ -69,14 +70,9 @@ $ns at 0.0 "$n1 label Receiver"
 $ns run
  
 # OUTPUT
-
-
-
-
-
-
-
-
+<img width="557" height="287" alt="Screenshot 2026-03-19 at 5 20 29 PM" src="https://github.com/user-attachments/assets/68b4bce6-8cd5-4680-b2d9-218acea9aea7" />
 
 # RESULT
+
+
 Thus the Stop and Wait protocol is implemented using NS2 and the output is verified successfully.
